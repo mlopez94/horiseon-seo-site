@@ -8,7 +8,60 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Header needed to changed */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* .header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+} */
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+
+/* .header h1 {
+    display: inline-block;
+    font-size: 48px; */
+}
+
+
+/* Changes to the span tag without the selector */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Changes to header nav that was div */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Updated unordered list */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Updated lists in the unordered list */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+
+/* .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -39,7 +92,7 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
+} */
 
 
 
@@ -216,3 +269,5 @@ p {
 .footer h2 {
     font-size: 20px;
 } */
+
+
